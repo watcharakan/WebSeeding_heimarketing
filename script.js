@@ -44,7 +44,7 @@ const obs=new IntersectionObserver((entries)=>{
   })
 },{threshold:0.1,rootMargin:'0px 0px -50px 0px'})
 
-document.querySelectorAll('.card,.price-card,.plat,.why-item,details').forEach(el=>{
+document.querySelectorAll('.card,.price-card,.plat,.why-item,details,.process-step').forEach(el=>{
   el.classList.add('fade-in')
   obs.observe(el)
 })
