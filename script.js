@@ -39,6 +39,47 @@ const s=document.createElement('style')
 s.textContent='.fade-in{opacity:0;transform:translateY(20px);transition:opacity .5s,transform .5s}.fade-in.visible{opacity:1;transform:translateY(0)}'
 document.head.appendChild(s)
 
+// Load Articles
+fetch('articles/data.json').then(r=>r.json()).then(articles=>{
+  const grid=document.getElementById('articlesGrid')
+  articles.forEach(a=>{
+    const card=document.createElement('div')
+    card.className='article-card fade-in'
+    card.innerHTML=`
+      <span class="article-badge">${a.category} | ${a.platform}</span>
+      <h3>${a.title}</h3>
+      <p>${a.excerpt}</p>
+      <div class="article-meta">
+        <span>${a.date}</span>
+        <span>${a.readTime}</span>
+      </div>`
+    card.addEventListener('click',()=>openArticle(a))
+    grid.appendChild(card)
+    obs.observe(card)
+  })
+}).catch(()=>{})
+
+function openArticle(a){
+  document.getElementById('modalCategory').textContent=a.category+' | '+a.platform
+  document.getElementById('modalTitle').textContent=a.title
+  document.getElementById('modalDate').textContent=a.date
+  document.getElementById('modalReadTime').textContent=a.readTime
+  document.getElementById('modalPlatform').textContent=a.platform
+  document.getElementById('modalBody').textContent=a.content
+  const modal=document.getElementById('articleModal')
+  modal.classList.add('active')
+  document.body.style.overflow='hidden'
+}
+document.getElementById('articleModalClose').addEventListener('click',closeModal)
+document.getElementById('articleModal').addEventListener('click',e=>{
+  if(e.target===e.currentTarget)closeModal()
+})
+document.getElementById('modalCta').addEventListener('click',closeModal)
+function closeModal(){
+  document.getElementById('articleModal').classList.remove('active')
+  document.body.style.overflow=''
+}
+
 // Back to Top button
 const backToTop=document.getElementById('backToTop')
 window.addEventListener('scroll',()=>{
