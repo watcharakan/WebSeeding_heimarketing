@@ -3,6 +3,7 @@
 
 User-agent: *
 Allow: /
+Disallow: /404.html
 
 # AI Search Crawlers — Welcome
 User-agent: GPTBot
@@ -28,5 +29,9 @@ Allow: /
 
 User-agent: Bytespider
 Allow: /
+
+# LLM-friendly content
+# llms.txt: https://heimarketing.com/llms.txt
+# llms-full.txt: https://heimarketing.com/llms-full.txt
 
 Sitemap: https://heimarketing.com/sitemap.xml
