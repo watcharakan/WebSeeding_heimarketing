@@ -187,6 +187,13 @@ details p{padding:1rem;font-size:.9rem}
 .article-card p{color:#666;font-size:.9rem;line-height:1.7;margin-bottom:1rem;flex:1}
 .article-meta{display:flex;gap:1rem;font-size:.8rem;color:#999;flex-wrap:wrap}
 .article-meta span{display:flex;align-items:center;gap:.3rem}
+@media(max-width:1024px){.articles-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:768px){
+.articles-grid{grid-template-columns:1fr;gap:1.2rem}
+.article-card{padding:1.5rem}
+.article-card h3{font-size:1rem}
+.article-card p{font-size:.85rem;line-height:1.6;-webkit-line-clamp:3;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden}
+}
 
 /* ARTICLE MODAL */
 .article-modal{display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:200;background:rgba(0,0,0,.7);backdrop-filter:blur(5px);overflow-y:auto;padding:2rem}
