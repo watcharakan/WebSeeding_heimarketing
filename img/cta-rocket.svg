@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Rocket launching illustration -->
+
+  <!-- Background circles -->
+  <circle cx="150" cy="150" r="120" fill="#fff" opacity=".06"/>
+  <circle cx="150" cy="150" r="80" fill="#fff" opacity=".04"/>
+
+  <!-- Stars -->
+  <text x="50" y="60" font-size="14" fill="#fff" opacity=".4">&#10022;</text>
+  <text x="240" y="80" font-size="18" fill="#fff" opacity=".3">&#10022;</text>
+  <text x="70" y="230" font-size="12" fill="#fff" opacity=".35">&#10022;</text>
+  <text x="250" y="210" font-size="16" fill="#fff" opacity=".25">&#10022;</text>
+  <text x="130" y="40" font-size="10" fill="#fff" opacity=".3">&#10022;</text>
+
+  <!-- Cloud puffs at bottom -->
+  <ellipse cx="120" cy="240" rx="40" ry="20" fill="#fff" opacity=".1"/>
+  <ellipse cx="180" cy="245" rx="50" ry="18" fill="#fff" opacity=".08"/>
+  <ellipse cx="150" cy="235" rx="35" ry="22" fill="#fff" opacity=".12"/>
+
+  <!-- Rocket body -->
+  <g transform="translate(150,140) rotate(-25)">
+    <!-- Flame -->
+    <ellipse cx="0" cy="75" rx="12" ry="30" fill="#FFD700" opacity=".8"/>
+    <ellipse cx="0" cy="70" rx="8" ry="22" fill="#FFA000"/>
+    <ellipse cx="0" cy="65" rx="5" ry="15" fill="#fff" opacity=".6"/>
+
+    <!-- Body -->
+    <rect x="-20" y="-30" width="40" height="70" rx="20" fill="#fff"/>
+    <!-- Body stripe -->
+    <rect x="-20" y="10" width="40" height="15" fill="#E31937"/>
+    <!-- Window -->
+    <circle cx="0" cy="-5" r="10" fill="#E31937" opacity=".2" stroke="#E31937" stroke-width="2"/>
+    <circle cx="0" cy="-5" r="6" fill="#87CEEB"/>
+    <circle cx="-2" cy="-7" r="2" fill="#fff" opacity=".6"/>
+
+    <!-- Nose cone -->
+    <path d="M-20 -30 Q0 -70 20 -30Z" fill="#E31937"/>
+    <path d="M-10 -30 Q0 -58 10 -30Z" fill="#ff3352" opacity=".5"/>
+
+    <!-- Fins -->
+    <path d="M-20 25 L-35 50 L-20 40Z" fill="#E31937"/>
+    <path d="M20 25 L35 50 L20 40Z" fill="#E31937"/>
+    <path d="M-18 25 L-28 42 L-18 38Z" fill="#c41530"/>
+    <path d="M18 25 L28 42 L18 38Z" fill="#c41530"/>
+
+    <!-- Hei logo on body -->
+    <text x="0" y="22" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">Hei</text>
+  </g>
+
+  <!-- Speed lines -->
+  <g opacity=".3">
+    <line x1="80" y1="200" x2="110" y2="180" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+    <line x1="70" y1="185" x2="95" y2="170" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="90" y1="215" x2="115" y2="198" stroke="#fff" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Growth chart beside rocket -->
+  <g transform="translate(210,180)" opacity=".5">
+    <rect x="0" y="20" width="8" height="15" rx="2" fill="#fff"/>
+    <rect x="12" y="10" width="8" height="25" rx="2" fill="#fff"/>
+    <rect x="24" y="0" width="8" height="35" rx="2" fill="#FFD700"/>
+    <path d="M4 18 L16 8 L28 -2" fill="none" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

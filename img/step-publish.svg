@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <circle cx="40" cy="40" r="35" fill="#E31937" opacity=".08"/>
+  <!-- Share/broadcast icon -->
+  <circle cx="30" cy="40" r="10" fill="#E31937"/>
+  <text x="30" y="44" text-anchor="middle" font-size="12" fill="#fff" font-weight="700">S</text>
+  <!-- Broadcast lines -->
+  <path d="M42 33 Q55 25 60 20" fill="none" stroke="#E31937" stroke-width="2" stroke-linecap="round"/>
+  <path d="M42 40 Q55 40 65 40" fill="none" stroke="#E31937" stroke-width="2" stroke-linecap="round"/>
+  <path d="M42 47 Q55 55 60 60" fill="none" stroke="#E31937" stroke-width="2" stroke-linecap="round"/>
+  <!-- Platform dots -->
+  <circle cx="62" cy="18" r="6" fill="#ff6b7f"/>
+  <text x="62" y="21" text-anchor="middle" font-size="7" fill="#fff">P</text>
+  <circle cx="67" cy="40" r="6" fill="#ff6b7f"/>
+  <text x="67" y="43" text-anchor="middle" font-size="7" fill="#fff">f</text>
+  <circle cx="62" cy="62" r="6" fill="#ff6b7f"/>
+  <text x="62" y="65" text-anchor="middle" font-size="7" fill="#fff">T</text>
+  <!-- Engagement hearts -->
+  <g transform="translate(18,18)" opacity=".5">
+    <path d="M0-4 C0-7 4-7 4-4 C4-1 0 3 0 3 C0 3 -4-1 -4-4 C-4-7 0-7 0-4Z" fill="#E31937"/>
+  </g>
+</svg>

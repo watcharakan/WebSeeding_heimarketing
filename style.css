@@ -73,6 +73,20 @@ h2.light{color:var(--white)}
 .why-item h3{margin-bottom:.5rem;font-size:1rem}
 .why-item p{color:rgba(255,255,255,.6);font-size:.9rem}
 
+/* ILLUSTRATIONS */
+.section-illust{display:block;max-width:600px;margin:2rem auto 0;opacity:.9}
+.step-icon{display:block;margin:0 auto .5rem;width:70px;height:70px}
+.cta-grid{display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center}
+.cta-illust{width:200px;height:200px;opacity:.85;animation:float 3s ease-in-out infinite}
+.contact-illust{display:block;max-width:250px;margin:0 auto 1.5rem;opacity:.85}
+@media(max-width:768px){
+.section-illust{max-width:100%}
+.cta-grid{grid-template-columns:1fr;text-align:center}
+.cta-illust{width:150px;height:150px;margin:0 auto}
+.step-icon{width:56px;height:56px}
+.contact-illust{max-width:200px}
+}
+
 /* PROCESS STEPS */
 .process-steps{display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:wrap;max-width:1000px;margin:0 auto}
 .process-step{text-align:center;flex:1;min-width:150px;padding:1.5rem 1rem;position:relative}

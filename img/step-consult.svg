@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <circle cx="40" cy="40" r="35" fill="#E31937" opacity=".08"/>
+  <!-- Two people talking -->
+  <circle cx="28" cy="28" r="8" fill="#E31937"/>
+  <rect x="20" y="38" width="16" height="18" rx="8" fill="#E31937"/>
+  <circle cx="52" cy="28" r="8" fill="#E31937" opacity=".6"/>
+  <rect x="44" y="38" width="16" height="18" rx="8" fill="#E31937" opacity=".6"/>
+  <!-- Chat bubbles -->
+  <rect x="10" y="12" width="18" height="10" rx="5" fill="#FFD700"/>
+  <text x="19" y="20" text-anchor="middle" font-size="7" fill="#333">?</text>
+  <rect x="48" y="14" width="22" height="10" rx="5" fill="#4CAF50"/>
+  <text x="59" y="22" text-anchor="middle" font-size="6" fill="#fff">FREE</text>
+</svg>

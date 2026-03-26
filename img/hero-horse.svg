@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Background glow -->
+  <circle cx="250" cy="260" r="180" fill="#E31937" opacity=".08"/>
+  <circle cx="250" cy="260" r="130" fill="#E31937" opacity=".06"/>
+
+  <!-- Social media bubbles floating around -->
+  <!-- Pantip bubble -->
+  <g transform="translate(80,80)">
+    <circle cx="0" cy="0" r="28" fill="#fff" opacity=".15" stroke="#E31937" stroke-width="1.5" opacity=".3"/>
+    <text x="0" y="6" text-anchor="middle" font-size="22" fill="#E31937" opacity=".6">P</text>
+  </g>
+  <!-- TikTok bubble -->
+  <g transform="translate(400,100)">
+    <circle cx="0" cy="0" r="24" fill="#fff" opacity=".15" stroke="#E31937" stroke-width="1.5" opacity=".3"/>
+    <text x="0" y="6" text-anchor="middle" font-size="18" font-weight="700" fill="#E31937" opacity=".6">T</text>
+  </g>
+  <!-- Facebook bubble -->
+  <g transform="translate(420,300)">
+    <circle cx="0" cy="0" r="22" fill="#fff" opacity=".15" stroke="#E31937" stroke-width="1.5" opacity=".3"/>
+    <text x="0" y="6" text-anchor="middle" font-size="18" font-weight="700" fill="#E31937" opacity=".6">f</text>
+  </g>
+  <!-- Google bubble -->
+  <g transform="translate(60,330)">
+    <circle cx="0" cy="0" r="20" fill="#fff" opacity=".15" stroke="#E31937" stroke-width="1.5" opacity=".3"/>
+    <text x="0" y="6" text-anchor="middle" font-size="16" font-weight="700" fill="#E31937" opacity=".6">G</text>
+  </g>
+  <!-- Star sparkles -->
+  <text x="130" y="170" font-size="16" fill="#E31937" opacity=".4">&#10022;</text>
+  <text x="380" y="200" font-size="20" fill="#E31937" opacity=".3">&#10022;</text>
+  <text x="100" y="400" font-size="14" fill="#E31937" opacity=".35">&#10022;</text>
+  <text x="410" y="420" font-size="18" fill="#E31937" opacity=".3">&#10022;</text>
+
+  <!-- Main Horse Body -->
+  <g transform="translate(130,100) scale(1.1)">
+    <!-- Body -->
+    <ellipse cx="160" cy="230" rx="95" ry="65" fill="#E31937"/>
+    <!-- Body highlight -->
+    <ellipse cx="145" cy="215" rx="60" ry="35" fill="#ff3352" opacity=".5"/>
+
+    <!-- Back legs -->
+    <rect x="90" y="270" width="28" height="80" rx="14" fill="#c41530"/>
+    <rect x="120" y="275" width="28" height="75" rx="14" fill="#d41835"/>
+    <!-- Back hooves -->
+    <ellipse cx="104" cy="352" rx="16" ry="8" fill="#222"/>
+    <ellipse cx="134" cy="352" rx="16" ry="8" fill="#333"/>
+
+    <!-- Front legs -->
+    <rect x="195" y="268" width="28" height="82" rx="14" fill="#d41835"/>
+    <rect x="225" y="265" width="28" height="85" rx="14" fill="#E31937"/>
+    <!-- Front hooves -->
+    <ellipse cx="209" cy="352" rx="16" ry="8" fill="#333"/>
+    <ellipse cx="239" cy="352" rx="16" ry="8" fill="#222"/>
+
+    <!-- Tail -->
+    <path d="M72 220 Q40 200 45 170 Q48 150 60 155 Q50 180 75 210Z" fill="#c41530"/>
+    <path d="M68 225 Q30 215 28 185 Q26 160 42 165 Q32 190 70 220Z" fill="#a8101c"/>
+
+    <!-- Neck -->
+    <path d="M230 200 Q250 150 240 110 Q235 90 215 85 Q195 82 190 100 Q185 120 195 190Z" fill="#E31937"/>
+    <!-- Neck highlight -->
+    <path d="M225 195 Q240 155 234 120 Q230 100 220 95 Q215 110 210 180Z" fill="#ff3352" opacity=".4"/>
+
+    <!-- Head -->
+    <ellipse cx="225" cy="80" rx="45" ry="35" fill="#E31937" transform="rotate(-10,225,80)"/>
+    <!-- Face highlight -->
+    <ellipse cx="218" cy="74" rx="28" ry="20" fill="#ff3352" opacity=".4" transform="rotate(-10,218,74)"/>
+
+    <!-- Muzzle -->
+    <ellipse cx="258" cy="88" rx="22" ry="16" fill="#ff6b7f"/>
+    <!-- Nostril -->
+    <circle cx="268" cy="86" r="3" fill="#c41530"/>
+    <!-- Smile -->
+    <path d="M248 96 Q258 104 270 98" fill="none" stroke="#c41530" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Eye -->
+    <ellipse cx="228" cy="70" rx="12" ry="13" fill="#fff"/>
+    <circle cx="231" cy="69" r="7" fill="#111"/>
+    <circle cx="233" cy="67" r="3" fill="#fff"/>
+
+    <!-- Ear -->
+    <path d="M205 50 Q195 20 210 15 Q220 12 218 40Z" fill="#E31937"/>
+    <path d="M209 48 Q202 28 212 22 Q217 20 216 42Z" fill="#ff6b7f"/>
+
+    <!-- Mane -->
+    <path d="M215 45 Q230 35 225 55 Q240 40 232 65 Q245 55 235 78" fill="#c41530"/>
+
+    <!-- Crown / Marketing hat -->
+    <g transform="translate(195,5) rotate(-15)">
+      <rect x="0" y="0" width="40" height="28" rx="3" fill="#FFD700"/>
+      <rect x="-3" y="22" width="46" height="8" rx="2" fill="#FFC000"/>
+      <text x="20" y="18" text-anchor="middle" font-size="16" font-weight="900" fill="#E31937">M</text>
+    </g>
+
+    <!-- Megaphone in mouth -->
+    <g transform="translate(270,78) rotate(15)">
+      <path d="M0 0 L30 -12 L30 12Z" fill="#FFD700"/>
+      <rect x="-8" y="-5" width="10" height="10" rx="2" fill="#FFC000"/>
+      <ellipse cx="30" cy="0" rx="4" ry="13" fill="#FFD700"/>
+    </g>
+
+    <!-- Sound waves from megaphone -->
+    <path d="M310 65 Q320 60 315 55" fill="none" stroke="#FFD700" stroke-width="2" opacity=".7"/>
+    <path d="M315 72 Q330 65 322 55" fill="none" stroke="#FFD700" stroke-width="2" opacity=".5"/>
+    <path d="M318 80 Q340 70 330 55" fill="none" stroke="#FFD700" stroke-width="1.5" opacity=".3"/>
+  </g>
+
+  <!-- Hearts / likes floating -->
+  <g transform="translate(370,160)" opacity=".6">
+    <path d="M0-6 C0-10 6-10 6-6 C6-2 0 4 0 4 C0 4 -6-2 -6-6 C-6-10 0-10 0-6Z" fill="#E31937" transform="scale(1.5)"/>
+  </g>
+  <g transform="translate(100,240)" opacity=".4">
+    <path d="M0-6 C0-10 6-10 6-6 C6-2 0 4 0 4 C0 4 -6-2 -6-6 C-6-10 0-10 0-6Z" fill="#E31937" transform="scale(1.2)"/>
+  </g>
+
+  <!-- Chat bubbles -->
+  <g transform="translate(350,380)" opacity=".5">
+    <rect x="0" y="0" width="50" height="30" rx="15" fill="#fff" opacity=".2" stroke="#E31937" stroke-width="1"/>
+    <text x="25" y="20" text-anchor="middle" font-size="14" fill="#E31937">5&#9733;</text>
+  </g>
+  <g transform="translate(60,420)" opacity=".4">
+    <rect x="0" y="0" width="55" height="28" rx="14" fill="#fff" opacity=".2" stroke="#E31937" stroke-width="1"/>
+    <text x="28" y="19" text-anchor="middle" font-size="11" fill="#E31937">&#10003; Review</text>
+  </g>
+</svg>

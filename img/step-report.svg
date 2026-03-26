@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <circle cx="40" cy="40" r="35" fill="#E31937" opacity=".08"/>
+  <!-- Report/chart -->
+  <rect x="16" y="16" width="40" height="48" rx="4" fill="#fff" stroke="#E31937" stroke-width="2"/>
+  <!-- Bar chart -->
+  <rect x="22" y="38" width="7" height="18" rx="1" fill="#ff6b7f"/>
+  <rect x="32" y="30" width="7" height="26" rx="1" fill="#E31937" opacity=".7"/>
+  <rect x="42" y="22" width="7" height="34" rx="1" fill="#E31937"/>
+  <!-- Upward arrow -->
+  <path d="M25 36 L35 28 L45 20" fill="none" stroke="#4CAF50" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="47,17 45,24 41,20" fill="#4CAF50"/>
+  <!-- Checkmark badge -->
+  <circle cx="58" cy="22" r="10" fill="#4CAF50"/>
+  <text x="58" y="26" text-anchor="middle" font-size="12" fill="#fff" font-weight="700">&#10003;</text>
+</svg>
