@@ -31,7 +31,7 @@ User-agent: Bytespider
 Allow: /
 
 # LLM-friendly content
-# llms.txt: https://heimarketing.com/llms.txt
-# llms-full.txt: https://heimarketing.com/llms-full.txt
+# llms.txt: https://hei-marketing.com/llms.txt
+# llms-full.txt: https://hei-marketing.com/llms-full.txt
 
-Sitemap: https://heimarketing.com/sitemap.xml
+Sitemap: https://hei-marketing.com/sitemap.xml
